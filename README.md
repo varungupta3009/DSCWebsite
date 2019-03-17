@@ -1,6 +1,6 @@
 ## Google DSC PESU
 
-This repository handles webapp development of DSC PESU
+This repository handles webapp development of DSC PESU <br>
 To run this, make sure you have installed npm (node package manager) and MongoDB in your system
 
 ## Available Scripts
