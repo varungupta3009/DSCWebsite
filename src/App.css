@@ -1,18 +1,14 @@
-.body{
-  scroll-behavior: smooth
+html{
+  scroll-behavior: smooth;
 }
 #intro{
   background: #0F9D58
 }
-#navbar{
-  scroll-behavior: smooth
-}
-
 #aboutUs:hover{
   background-color: #4285F4;
   transition: 0.3s;
 }
-#team:hover{
+#Team:hover{
   background-color: #DB4437;
   transition: 0.3s;
 }
@@ -33,9 +29,9 @@
 
 #introDiv{
   background-image: url('./images/webpage/intro.jpeg');
-  /* filter: blur(2px); */
   background-repeat: no-repeat; 
   background-size: cover;
+  overflow: hidden;
   
 }
 #content{
@@ -67,19 +63,23 @@
   color:black;
   height: 50px;
   margin-bottom: 50px;
-  padding: 2px 15px;
+  /* padding: 2px 15px; */
   text-align: center;
 
 }
 .slider-text1{
   background: lightgreen;
   animation: slide 5s linear infinite;
+  text-align: center;
+  margin-bottom: 10px
 }
 .slider-text2{
   background: skyblue;
+  text-align: center;
 }
 .slider-text3{
   background: orange;
+  text-align: center;
 }
 @keyframes slide{
   10% {margin-top:-300px}
@@ -90,3 +90,12 @@
   71% {margin-top:0px}
   100% {margin-top:0px}
 }
+
+#about{
+  background: url('./images/webpage/about.jpg') fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  overflow: hidden;
+}
+
+

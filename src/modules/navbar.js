@@ -20,7 +20,6 @@ class navbar extends React.Component {
     this.state = {
       isOpen: false,
       dsc: 'Developer Student Club',
-      red: '#DB4437'
     };
   }
 
@@ -38,10 +37,10 @@ class navbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/" id = 'aboutUs' onClick = {this.state.red}>About Us</NavLink>
+                <NavLink href="/#about" id = 'aboutUs'>About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/" id = 'team'>Team</NavLink>
+                <NavLink href="/#team" id = 'Team'>Team</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/" id = 'events'>Events</NavLink>
