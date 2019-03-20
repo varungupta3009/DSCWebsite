@@ -42,4 +42,14 @@ module.exports = (Routes) =>{
                 res.status(400).send(error)
             })
     })
+    //endpoint to fetch workshop details from db
+    Routes.route('/workshop/getDetails').get((req, res) => {
+        WorkshopDetails.find((err, body) => {
+            if (err) {
+                console.log(err)
+            }else{
+                res.json(body)
+            }
+        })
+    })
 }

@@ -84,7 +84,7 @@ class aboutUs extends React.Component{
     render(){
         return(
             <><Fade><div id = 'abouth1'><h1>About DSC PESU</h1></div></Fade>
-            <div id = 'type'><ReactTypingEffect speed = '70' text = {this.state.text}/></div>
+            <div id = 'type'><ReactTypingEffect speed = '50' text = {this.state.text}/></div>
             <div id = 'content1'>
                 <Fade bottom> {this.container1()}</Fade>
                 <Fade bottom> {this.container2()}</Fade>
